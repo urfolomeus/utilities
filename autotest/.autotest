@@ -1,0 +1,4 @@
+require 'autotest/fsevent'
+require 'autotest/growl'
+Autotest::Growl::image_dir = File.join(ENV['HOME'], '.autotest-icons')
+Autotest::Growl::hide_label = true
